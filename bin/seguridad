@@ -3,5 +3,5 @@
 require 'seguridad'
 
 ARGV.each do |domain|
-    get_cert_info(domain)
+    puts get_cert_info(domain)
 end
